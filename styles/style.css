@@ -19,6 +19,22 @@ body {
   font-size: 16px;
 }
 
+.section-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.section-description {
+  color: #555963;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /* banner styles */
 .banner-container {
   width: 1440px;
@@ -52,7 +68,7 @@ body {
 
 .banner-content p {
   margin: 30px 0;
-  color: #0d1321;
+  color: #555963;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -62,4 +78,59 @@ body {
   display: block;
   text-decoration: none;
   margin-top: 10px;
+}
+
+/* why development section styles */
+
+.development-container {
+  width: 946px;
+  height: 1233px;
+  margin: 0 auto;
+  background-color: #fafafb;
+  margin-top: 80px;
+  padding: 20px 97px;
+}
+
+.development-container h1 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.development-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 40px;
+  margin: 30px 0;
+}
+
+.development-text h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.development-text p {
+  color: #565a56;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+.development-text button {
+  border: 1px solid #565a56;
+  color: #565a56;
+  background: transparent;
+  padding: 10px 25px;
+  font-size: 18px;
+}
+
+.development-image {
+  width: 259.56px;
+  height: 217.01px;
+}
+
+.development-image img {
+  width: 100%;
 }
