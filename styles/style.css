@@ -134,3 +134,37 @@ body {
 .development-image img {
   width: 100%;
 }
+
+/* inspiration styles */
+
+.inspiration-container {
+  width: 946px;
+  height: 775px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inspiration-container h1 {
+  margin-top: 30px;
+}
+
+.inspiration-container p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.video-frame {
+  width: 946px;
+  height: 514px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+
+.video-frame iframe {
+  border-radius: 16px;
+}
